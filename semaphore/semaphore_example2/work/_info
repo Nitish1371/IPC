@@ -1,0 +1,43 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 d/home/nitishyadav/hwetools/work_area/frontend/nitish_b7/system_verilog/IPC/semaphore/semaphore_example2
+T_opt
+!s110 1664821789
+V7Q=M=cRS0_0gYAB`GH]Ae0
+04 21 4 work semaphore_exa_get_try fast 0
+=1-a4badb503de1-633b2a1d-c70e6-30eb
+o-quiet -auto_acc_if_foreign -work work
+Z1 tCvgOpt 0
+n@_opt
+OE;O;10.6c;65
+vsemaphore_exa_get_try
+DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1664821778
+!i10b 1
+!s100 RDm`R1I9W2bjX1fGF^o2d2
+I<G^Fzm2K[1Cmnmz16ECi^1
+VDg1SIo80bB@j0V0VzS_@n1
+!s105 sema_exam2_sv_unit
+S1
+R0
+w1664867261
+8sema_exam2.sv
+Fsema_exam2.sv
+L0 1
+OE;L;10.6c;65
+r1
+!s85 0
+31
+!s108 1664821778.000000
+!s107 sema_exam2.sv|
+!s90 -sv|sema_exam2.sv|
+!i113 0
+o-sv -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1

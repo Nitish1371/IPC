@@ -1,0 +1,38 @@
+# vsim semaphore_exa_get_try -c -do "run -all;exit;" 
+# Start time: 23:59:49 on Oct 03,2022
+# ** Note: (vsim-3812) Design is being optimized...
+# ** Warning: sema_exam2.sv(22): (vopt-2240) Treating stand-alone use of function 'try_get' as an implicit VOID cast.
+# //  Questa Sim
+# //  Version 10.6c linux Jul 25 2017
+# //
+# //  Copyright 1991-2017 Mentor Graphics Corporation
+# //  All Rights Reserved.
+# //
+# //  QuestaSim and its associated documentation contain trade
+# //  secrets and commercial or financial information that are the property of
+# //  Mentor Graphics Corporation and are privileged, confidential,
+# //  and exempt from disclosure under the Freedom of Information Act,
+# //  5 U.S.C. Section 552. Furthermore, this information
+# //  is prohibited from disclosure under the Trade Secrets Act,
+# //  18 U.S.C. Section 1905.
+# //
+# Loading sv_std.std
+# Loading work.semaphore_exa_get_try(fast)
+# run -all
+# person A Waiting for car, time=0
+# person A Got the car, time=0
+# person B Waiting for car, time=1
+# person B Got the car, time=1
+# person A Returning back car, time=10
+# person B Returning back car, time=11
+#  
+# person A Waiting for car, time=11
+# person A Got the car, time=11
+# person B Waiting for car, time=12
+# person B Got the car, time=12
+# person A Returning back car, time=21
+# person B Returning back car, time=22
+#  
+# exit
+# End time: 23:59:50 on Oct 03,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 1
